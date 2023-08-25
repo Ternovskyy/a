@@ -271,3 +271,16 @@ rgba(43, 74, 97, 0.87)),url(./img/header-back.png);
 width: 1440px;
 height: 223px;
 }
+
+.footer-content{
+  display:flex;
+}
+
+.footer-logo{
+  padding-top:70px;
+  margin-right:50px;
+}
+
+.line{
+  padding-top:36px;
+}
