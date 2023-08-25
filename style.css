@@ -61,13 +61,13 @@ a {
   background-image: linear-gradient(rgba(43, 74, 97, 0.87),
   rgba(43, 74, 97, 0.87)),url(./img/header-back.png);
   border-bottom: 3px solid #FFF;
-   width: 1440px;
-   height: 150px;
-   flex-shrink: 0;
-   background-repeat: no-repeat;
-   margin-left: auto;
-   margin-right: auto;
-   display: flex;
+  width: 1440px;
+  height: 150px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
   
 .head_logo {
@@ -118,14 +118,15 @@ a {
 
 .hero {
   background-image: url(./img/hero_back.png);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 180px;
   width: 1440px;
   height: 740px;
 
 }
 
 .hero-text-1 {
-  padding-top: 180px;
-  margin-bottom: 40px;
   width: 298px;
   height: 96px;
   flex-shrink: 0;
@@ -136,7 +137,7 @@ a {
   line-height: normal;
 }
 
-/* .hero-image-1 {
+ .hero-image-1 {
   width: 152px;
   height: 40px;
   padding-left: 257px;
@@ -144,11 +145,10 @@ a {
   padding-top: 276px;
   padding-bottom: 424px;
 
-} */
+} 
 
 
 .hero-text-2 {
-  margin-top: 40px;
   width: 376px;
   height: 123px;
   flex-shrink: 0;
@@ -160,26 +160,114 @@ a {
 
 }
 
+.Join_clan{
+  color: #26C7EA;
+  text-align: center;
+  font-family: "HeadlandOne";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 260px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background: #0B0E66;
+}
+
 .foresight {
 
 }
 
-.zagolovok {
-  width: 1440px;
-  height: 350px;
-  text-align: center;
-  padding-top: 75px;
-  padding-bottom: 231px;
-  color: #000;
+.title {
 text-align: center;
-font-family: Inter;
+padding-top: 75px;
+text-align: center;
+color: #0A3853;
+text-align: center;
+font-family: "Inter" sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 
-.mini-zagolovok{
+.mini-title{
+  color: #000;
   text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}  
 
+.image-3 {
+width: 400px;
+height: 120px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+margin-bottom: 10px;
+}
+
+.trailer {
+background-image: url(./img/trailer-back.png);
+background-size: cover;
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
+height: 741px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.btn-wathc {
+width: 260px;
+height: 80px;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background-color: #0B0E66;
+color: #26C7EA;
+text-align: center;
+font-family: "HeadlandOne", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.image_4 {
+  width: 400px;
+height: 120px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+margin-bottom: 10px;
+}
+
+.dictionary {
+background-image: url(./img/Lets_learn.png);
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
+height: 704px;
+}
+
+.image_11 {
+width: 400px;
+height: 120px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+margin-bottom: 10px;
+}
+
+.footer {
+background-image: linear-gradient(rgba(43, 74, 97, 0.87),
+rgba(43, 74, 97, 0.87)),url(./img/header-back.png);
+width: 1440px;
+height: 223px;
 }
