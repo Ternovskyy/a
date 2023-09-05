@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 li {
@@ -46,21 +46,24 @@ a {
 }
 
 .container {
-    width: 1030px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .header-container {
-   display: flex;
+  display: flex;
 }
 
 .header {
-  background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-  rgba(43, 74, 97, 0.87)),url(./img/header-back.png);
-  border-bottom: 3px solid #FFF;
+  background-image: linear-gradient(
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(./img/header-back.png);
+  border-bottom: 3px solid #fff;
   width: 1440px;
   height: 150px;
   flex-shrink: 0;
@@ -69,24 +72,24 @@ a {
   margin-right: auto;
   display: flex;
 }
-  
+
 .head_logo {
- margin-top: 39px;
- margin-bottom: 39px;
+  margin-top: 39px;
+  margin-bottom: 39px;
 }
 
 .list_menu {
   display: flex;
-  margin-left: 168px;
+  margin-left: 160px;
 }
 
 .menu-item {
-  color: #FFF;
+  color: #fff;
 }
 
 .menu-item:hover,
 .menu-item:focus {
-   color: #94CFFF; 
+  color: #94cfff;
 }
 
 .item {
@@ -96,24 +99,24 @@ a {
 }
 
 .header-log {
-   font-family: "HeadlandOne" , sans-serif;
-   color: #26C6EA;
-   text-align: justify;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-   padding: 9px 37px 8px 36px;
-   margin-left: 212px;
-   margin-top: 54px;
-   margin-bottom: 54px;
-   border-radius: 2px;
-   border-top-left-radius: 35px;
-   border-bottom-right-radius: 35px;
-   border-color: #26C7EA;
-   background-color: #0B0E66;
-   cursor: pointer;
-   color: #26C6EA;
+  font-family: "HeadlandOne", sans-serif;
+  color: #26c6ea;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 9px 37px 8px 36px;
+  margin-left: 212px;
+  margin-top: 54px;
+  margin-bottom: 54px;
+  border-radius: 2px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-color: #26c7ea;
+  background-color: #0b0e66;
+  cursor: pointer;
+  color: #26c6ea;
 }
 
 .hero {
@@ -123,45 +126,41 @@ a {
   padding-top: 180px;
   width: 1440px;
   height: 740px;
-
 }
 
 .hero-text-1 {
   width: 298px;
   height: 96px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
- .hero-image-1 {
+.hero-image-1 {
   width: 152px;
   height: 40px;
   padding-left: 257px;
   padding-right: 1031px;
   padding-top: 276px;
   padding-bottom: 424px;
-
-} 
-
+}
 
 .hero-text-2 {
   width: 376px;
   height: 123px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
 
-.Join_clan{
-  color: #26C7EA;
+.Join_clan {
+  color: #26c7ea;
   text-align: center;
   font-family: "HeadlandOne";
   font-size: 24px;
@@ -169,31 +168,24 @@ a {
   font-weight: 400;
   line-height: normal;
   width: 260px;
-height: 80px;
-flex-shrink: 0;
-border-radius: 45px 0px;
-border: 3px solid #26C7EA;
-background: #0B0E66;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
 }
 
-.foresight {
-
+.foresigh-title {
+  text-align: center;
+  padding-top: 75px;
+  color: #0a3853;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.title {
-text-align: center;
-padding-top: 75px;
-text-align: center;
-color: #0A3853;
-text-align: center;
-font-family: "Inter" sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.mini-title{
+.mini-title {
   color: #000;
   text-align: center;
   font-family: "Inter" sans-serif;
@@ -201,86 +193,162 @@ line-height: normal;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}  
+}
 
 .image-3 {
-width: 400px;
-height: 120px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 8px;
-margin-bottom: 10px;
+  width: 400px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .trailer {
-background-image: url(./img/trailer-back.png);
-background-size: cover;
-margin-left: auto;
-margin-right: auto;
-width: 1440px;
-height: 741px;
-justify-content: center;
-align-items: center;
-display: flex;
+  background-image: url(./img/trailer-back.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 741px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .btn-wathc {
-width: 260px;
-height: 80px;
-border-radius: 45px 0px;
-border: 3px solid #26C7EA;
-background-color: #0B0E66;
-color: #26C7EA;
-text-align: center;
-font-family: "HeadlandOne", sans-serif;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  width: 260px;
+  height: 80px;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background-color: #0b0e66;
+  color: #26c7ea;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .image_4 {
   width: 400px;
-height: 120px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 8px;
-margin-bottom: 10px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .dictionary {
-background-image: url(./img/Lets_learn.png);
-margin-left: auto;
-margin-right: auto;
-width: 1440px;
-height: 704px;
+  padding-top: 55px;
+  padding-bottom: 57px;
+  background-image: url(./img/Lets_learn.png);
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 704px;
+}
+
+.dictionary-title {
+  color: #141414;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dictionary-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dictionary-item {
+  padding: 36px 84px;
+  width: 320px;
+  height: 240px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dictionary-text-1 {
+  color: #141414;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dictionary-text-2 {
+  margin-top: 40px;
+  color: #000;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .image_11 {
-width: 400px;
-height: 120px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 8px;
-margin-bottom: 10px;
+  width: 400px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
+/*  */
 .footer {
-background-image: linear-gradient(rgba(43, 74, 97, 0.87),
-rgba(43, 74, 97, 0.87)),url(./img/header-back.png);
-width: 1440px;
-height: 223px;
+  padding-top: 77px;
+  padding-bottom: 76px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(./img/header-back.png);
+  width: 1440px;
+  height: 223px;
 }
 
-.footer-content{
-  display:flex;
+.footer > .container {
+  display: flex;
 }
 
-.footer-logo{
-  padding-top:70px;
-  margin-right:50px;
+.footer-logo {
+  margin-right: 50px;
 }
 
-.line{
-  padding-top:36px;
+.line {
+  left: 450px;
+  top: 30px;
+  position: absolute;
+}
+
+.mail {
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.end {
+  right: 500px;
+  bottom: 0px;
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
