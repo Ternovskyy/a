@@ -51,7 +51,7 @@
                 stays behind to become part of the People. Fight with us!
             </p>
 
-            <button type="button" class="Join_clan">Join clan</button>
+            <button type="button" class="Join_clan" data-action="open-modal">Join clan</button>
         </div>
     </section>
     <!-- foresight -->
@@ -158,6 +158,24 @@
             </p>
         </div>
     </footer>
+    <!-- modal -->
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+
+            <button type="button" class="modal-close-btn" data-action="close-modal">
+                <svg class="modal-svg" width="11" height="11"><use href="./svg/symbol-defs.svg#icon-modal"</use></svg>
+            </button>
+            <form class="modal-form">
+            <label class="modal-name">Name</label>
+            <input class="form-input" type="text" name="username">
+            <label class="modal-name">Email</label>
+            <input class="form-input" type="email" name="email">
+            </form>
+
+            <button type="button" class="modal-Join-clan" data-action="open-modal">Join clan</button>
+        </div>
+    </div>
+    <script src="./js/modal.js" type="module"></script>
 </body>
 
 </html>
